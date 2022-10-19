@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    background-color: #212833;
+    color: #FFBB00;
+
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+}
+
+#pannel {
+    position: relative;
+    align-items: center;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    background-color: #252D3A;
+    box-shadow: 3px 3px 10px rgba(11, 14, 18, 0.51), -2px -2px 3px rgba(140, 178, 239, 0.25);
+    border-radius: 10px;
+
+}
+
+#meme-title {
+    padding-top: 30px;
+}
+
+.input-field {
+    border-radius: 10px;
+    background: #565B64;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    margin: 5px;
+}
+
+#bottom-input-field {
+    position: absolute;
+    left: 26.5%;
+}
+
+.meme {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 250px;
+    margin: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.top-text {
+    position: absolute;
+    justify-self: center;
+    top: 5px;
+    margin: auto;
+    width: 90%;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bottom-text {
+    position: absolute;
+    justify-self: center;
+    bottom: 5px;
+    margin: auto;
+    width: 90%;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Buttons */
+#submit-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #FFBB00;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    font-size: 1rem;
+    color: #212833;
+    margin: 20px;
+}
+
+#submit-button:hover {
+    background-color: #FCCD4C;
+    box-shadow: 4px 4px 4px rgba(255, 187, 0, 0.25), inset -4px -4px 10px rgba(255, 241, 202, 0.5);
+}
+
+#submit-button:active {
+    background-color: white;
+}
+
+.remove-meme {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #FFBB00;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    color: #252D3A;
+}
+
+.remove-meme:hover {
+    background-color: #FCCD4C;
+    box-shadow: 4px 4px 4px rgba(255, 187, 0, 0.25), inset -4px -4px 10px rgba(255, 241, 202, 0.5);
+}
+
+.remove-meme:active {
+    background-color: white;
+}
+
+/* Range Sliders for font size */
+.input-field-slider {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 100px;
+    height: 7px;
+    background: #565B64;
+    border-radius: 5px;
+
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+}
+
+.input-field-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background: #FFBB00;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+}

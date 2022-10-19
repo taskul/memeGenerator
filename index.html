@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div id="pannel">
+        <h1 id="meme-title">Meme Generator</h1>
+        <form>
+            <label aria-label="Label for image url">
+                Image link:
+                <input type="text" class="input-field" aria-label="Insert image link" id="img-url" size="76">
+            </label><br>
+            <label aria-label="Top text for the meme">
+                Meme text on top:
+                <input type="text" class="input-field" aria-label="Type meme text on top" id="top-text" size="40">
+            </label>
+            <label aria-label="Font size">
+                Font size:
+                <input type="range" min="10" max="30" id="font-size" class="input-field-slider">
+                <span id="font-size-display">20</span>
+            </label>
+            <br>
+            <label aria-label="Bottom text for the meme" id="bottom-input-field">
+                Meme text on bottom:
+                <input type="text" class="input-field" aria-label="Type meme text on bottom" id="bottom-text" size="36">
+            </label>
+            <br>
+            <button type="submit" id="submit-button">Create</button>
+        </form>
+        <div id="memes">
+
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
